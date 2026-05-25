@@ -1,0 +1,10 @@
+{
+  "add_config_files": [
+    "configs/00-base.json",
+    "configs/10-hyperliquid.json",
+    "configs/20-tradfi-universe.json",
+    "configs/30-portfolio-engine.json",
+    "configs/40-dryrun.json",
+    "configs/99-secrets.json"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "tradfi_universe": {
+    "enabled": true,
+    "asset_classes": [
+      "equity",
+      "commodity"
+    ],
+    "symbols": [
+      "XYZ-MSFT/USDC:USDC",
+      "XYZ-AMZN/USDC:USDC",
+      "XYZ-GOLD/USDC:USDC",
+      "XYZ-BRENTOIL/USDC:USDC"
+    ],
+    "excluded_symbols": [],
+    "min_universe_size": 4
+  }
+}

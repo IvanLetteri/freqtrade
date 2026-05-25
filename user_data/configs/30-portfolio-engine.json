@@ -1,0 +1,18 @@
+{
+  "portfolio_engine": {
+    "model": "equal_weight",
+    "max_assets": 4,
+    "cash_buffer": 0.10,
+    "min_position_weight_delta": 0.05,
+    "rebalance": {
+      "enabled": true,
+      "frequency": "weekly",
+      "weekday": 0,
+      "hour_utc": 0
+    }
+  },
+  "stake_amount": "unlimited",
+  "tradable_balance_ratio": 0.90,
+  "max_open_trades": 4,
+  "position_adjustment_enable": true
+}

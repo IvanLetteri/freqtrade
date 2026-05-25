@@ -1,0 +1,21 @@
+{
+  "trading_mode": "futures",
+  "margin_mode": "isolated",
+  "exchange": {
+    "name": "hyperliquid",
+    "walletAddress": "0xYOUR_MAIN_WALLET",
+    "privateKey": "0xYOUR_API_WALLET_PRIVATE_KEY",
+    "hip3_dexes": [
+      "xyz"
+    ],
+    "ccxt_config": {},
+    "ccxt_async_config": {},
+    "pair_whitelist": [
+      "XYZ-MSFT/USDC:USDC",
+      "XYZ-AMZN/USDC:USDC",
+      "XYZ-GOLD/USDC:USDC",
+      "XYZ-BRENTOIL/USDC:USDC"
+    ],
+    "pair_blacklist": []
+  }
+}
