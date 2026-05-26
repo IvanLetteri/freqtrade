@@ -1,8 +1,18 @@
+# Secrets
 user_data/configs/99-secrets.json
+user_data/configs/*secret*
+user_data/hyperopt_results/
+
+# Runtime data
 user_data/logs/
 user_data/data/
 user_data/backtest_results/
-user_data/hyperopt_results/
-user_data/plot/
+user_data/tradesv3.sqlite
+user_data/tradesv3.sqlite-shm
+user_data/tradesv3.sqlite-wal
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+.env
