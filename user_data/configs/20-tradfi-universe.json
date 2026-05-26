@@ -12,6 +12,6 @@
       "XYZ-BRENTOIL/USDC:USDC"
     ],
     "excluded_symbols": [],
-    "min_universe_size": 4
+    "min_universe_size": 3
   }
 }

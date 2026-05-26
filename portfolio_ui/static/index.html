@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TradFi Portfolio UI</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <h1>TradFi Portfolio UI</h1>
+        <p>Control plane per Freqtrade + Hyperliquid</p>
+      </div>
+      <div class="status-pill" id="health-pill">Checking backend…</div>
+    </header>
+
+    <main class="layout">
+      <section class="card">
+        <h2>Backend status</h2>
+        <pre id="health-json">Loading…</pre>
+      </section>
+
+      <section class="card">
+        <h2>TradFi Universe editor</h2>
+        <form id="tradfi-form" class="form-grid">
+          <label>
+            <span>Enabled</span>
+            <input type="checkbox" id="enabled" />
+          </label>
+
+          <label>
+            <span>Asset classes (una per riga)</span>
+            <textarea id="asset_classes" rows="4"></textarea>
+          </label>
+
+          <label>
+            <span>Symbols / pairs (una per riga)</span>
+            <textarea id="symbols" rows="8"></textarea>
+          </label>
+
+          <label>
+            <span>Excluded symbols (una per riga)</span>
+            <textarea id="excluded_symbols" rows="4"></textarea>
+          </label>
+
+          <label>
+            <span>Min universe size</span>
+            <input type="number" id="min_universe_size" min="1" />
+          </label>
+
+          <div class="actions">
+            <button type="submit" class="btn-primary">Save TradFi Universe</button>
+          </div>
+        </form>
+
+        <pre id="save-result">Nessun salvataggio eseguito.</pre>
+      </section>
+
+      <section class="card">
+        <h2>Configurazione aggregata</h2>
+        <pre id="config-json">Loading…</pre>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
